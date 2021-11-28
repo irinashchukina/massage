@@ -1,0 +1,424 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+  min-height: 100vh;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  height: auto;
+  background-color: #000;
+}
+
+.card {
+  height: auto;
+  width: auto;
+  margin: 0 0 10px 0;
+  padding: 10px;
+}
+
+.cardlast {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 44px;
+  text-align: left;
+  padding: 25px 10px;
+  margin: 0;
+  color: #c7ba76;
+}
+
+.blockname {
+  font-size: 20px;
+}
+
+li {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.consultation {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+}
+
+.danger:hover,
+.danger:focus,
+.danger:active {
+  font-size: 16px;
+  color: rgb(243, 14, 45);
+}
+.danger {
+  font-size: 16px;
+  border: 2px solid red;
+  padding: 5px;
+  display: table-cell;
+  border-radius: 10px;
+}
+
+.content {
+  font-size: 0;
+  background-size: contain;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.certificate-foto1,
+.certificate-foto2,
+.certificate-foto3,
+.certificate-foto4 {
+  width: 200px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.my-photo1,
+.my-photo2,
+.my-photo3 {
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #000;
+  padding: 5px;
+  height: auto;
+}
+
+.copyright {
+  color: white;
+  font-size: 10px;
+  margin-top: auto;
+}
+
+.social,
+.address {
+  color: white;
+  font-size: 14px;
+  padding: 0;
+}
+
+.num {
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footercontainer {
+  width: auto;
+  height: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.diplom,
+.foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-type: none;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.foto img:hover,
+.diplom img:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.diplom li:nth-child(3):hover {
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.layout-positioner {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation-button {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navigation-button:hover,
+.navigation-button:focus,
+.navigation-button:active {
+  color: #c7ba76;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.phone-number:hover,
+.phone-number:focus,
+.phone-number:active {
+  color: #c7ba76;
+}
+
+.contact a {
+  color: #000;
+}
+.contact a:hover,
+.contact a:focus,
+.contact a:active {
+  color: #c7ba76;
+}
+
+.address a {
+  color: #fff;
+}
+
+.address a:hover,
+.address a:focus,
+.address a:active {
+  color: #c7ba76;
+}
+
+.cont-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.cont-ul > li {
+  padding-bottom: 10px;
+}
+
+.mas1,
+.mas4,
+.mas2 {
+  max-height: 300px;
+  padding-right: 5px;
+}
+
+.mas3,
+.mas5,
+.mas6 {
+  max-height: 300px;
+}
+
+.doctor {
+  margin: 20px 0;
+}
+
+.tut {
+  color: #c7ba76;
+}
+
+@media screen and (max-width: 950px) {
+  h1 {
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .mas3,
+  .mas5 {
+    display: none;
+  }
+  .blockname {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  li {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .social {
+    width: 50%;
+  }
+  .navigation-button {
+    font-size: 16px;
+  }
+  .mas1,
+  .mas4 {
+    padding-right: 0;
+  }
+  ul.foto,
+  ul.diplom {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .my-photo3,
+  .certificate-foto2 {
+    margin-right: 0;
+  }
+
+  .my-photo1,
+  .my-photo2 {
+    display: none;
+  }
+
+  .certificate-foto1,
+  .certificate-foto3,
+  .certificate-foto4 {
+    display: none;
+  }
+
+  .foto img:hover,
+  .diplom img:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .diplom li:nth-child(3):hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .mas3,
+  .mas5 {
+    display: none;
+  }
+  .blockname {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  li {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+  .social {
+    width: 50%;
+  }
+  .navigation-button {
+    font-size: 16px;
+  }
+  .mas1,
+  .mas4 {
+    padding-right: 0;
+  }
+  ul.foto,
+  ul.diplom {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .my-photo3,
+  .certificate-foto2 {
+    margin-right: 0;
+  }
+
+  .my-photo1,
+  .my-photo2 {
+    display: none;
+  }
+
+  .certificate-foto1,
+  .certificate-foto3,
+  .certificate-foto4 {
+    display: none;
+  }
+
+  .foto img:hover,
+  .diplom img:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .diplom li:nth-child(3):hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
